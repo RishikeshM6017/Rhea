@@ -50,7 +50,7 @@
     <OutDir>$(SolutionDir)Build\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)Intermediate\$(ProjectName)\$(Configuration)\</IntDir>
     <IncludePath>$(ProjectDir)Include;$(IncludePath)</IncludePath>
-    <ExternalIncludePath>$(SolutionDir)Engine\Include;$(ExternalIncludePath)</ExternalIncludePath>
+    <ExternalIncludePath>$(SolutionDir)Engine\Include;$(VULKAN_SDK)\Include;C:\SDKs\GLFW\include;$(ExternalIncludePath)</ExternalIncludePath>
     <SourcePath>$ProjectDir)Source;$(SourcePath)</SourcePath>
     <LibraryPath>$(SolutionDir)Build\$(Configuration);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
@@ -58,7 +58,7 @@
     <OutDir>$(SolutionDir)Build\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)Intermediate\$(ProjectName)\$(Configuration)\</IntDir>
     <IncludePath>$(ProjectDir)Include;$(IncludePath)</IncludePath>
-    <ExternalIncludePath>$(SolutionDir)Engine\Include;$(ExternalIncludePath)</ExternalIncludePath>
+    <ExternalIncludePath>$(SolutionDir)Engine\Include;$(VULKAN_SDK)\Include;C:\SDKs\GLFW\include;$(ExternalIncludePath)</ExternalIncludePath>
     <SourcePath>$ProjectDir)Source;$(SourcePath)</SourcePath>
     <LibraryPath>$(SolutionDir)Build\$(Configuration);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
