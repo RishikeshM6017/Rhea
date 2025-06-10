@@ -1,5 +1,5 @@
-#Rhea
-######A Vulkan Based Game Engine made using C++
+# Rhea
+###### A Vulkan Based Game Engine made using C++
 
 Rhea uses C style C++
 
