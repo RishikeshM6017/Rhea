@@ -9,6 +9,20 @@
 #include <optional>
 #include <set>
 
+#ifdef ENGINE_EXPORT
+#ifdef _MSC_VER
+#define RAPI __declspec(dllexport)
+#else
+#define RAPI __attribute__((visibility("default")))
+#endif
+#else
+#ifdef _MSC_VER
+#define RAPI __declspec(dllimport)
+#else
+#define RAPI
+#endif
+#endif
+
 using U8  = uint8_t;
 using U16 = uint16_t;
 using U32 = uint32_t;

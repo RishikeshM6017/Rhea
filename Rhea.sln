@@ -1,26 +1,29 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36202.13 d17.14
+VisualStudioVersion = 17.14.36202.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RheaEngine", "RheaEngine\RheaEngine.vcxproj", "{89AEE3F3-CB75-4725-9906-5893933A5BD1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{41DF2D43-E7A1-49CA-806F-67D0C2C82BB1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{09C23D9C-D584-46A6-98F6-2AA986D70B10} = {09C23D9C-D584-46A6-98F6-2AA986D70B10}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Engine.vcxproj", "{09C23D9C-D584-46A6-98F6-2AA986D70B10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{89AEE3F3-CB75-4725-9906-5893933A5BD1}.Debug|x64.ActiveCfg = Debug|x64
-		{89AEE3F3-CB75-4725-9906-5893933A5BD1}.Debug|x64.Build.0 = Debug|x64
-		{89AEE3F3-CB75-4725-9906-5893933A5BD1}.Debug|x86.ActiveCfg = Debug|Win32
-		{89AEE3F3-CB75-4725-9906-5893933A5BD1}.Debug|x86.Build.0 = Debug|Win32
-		{89AEE3F3-CB75-4725-9906-5893933A5BD1}.Release|x64.ActiveCfg = Release|x64
-		{89AEE3F3-CB75-4725-9906-5893933A5BD1}.Release|x64.Build.0 = Release|x64
-		{89AEE3F3-CB75-4725-9906-5893933A5BD1}.Release|x86.ActiveCfg = Release|Win32
-		{89AEE3F3-CB75-4725-9906-5893933A5BD1}.Release|x86.Build.0 = Release|Win32
+		{41DF2D43-E7A1-49CA-806F-67D0C2C82BB1}.Debug|x64.ActiveCfg = Debug|x64
+		{41DF2D43-E7A1-49CA-806F-67D0C2C82BB1}.Debug|x64.Build.0 = Debug|x64
+		{41DF2D43-E7A1-49CA-806F-67D0C2C82BB1}.Release|x64.ActiveCfg = Release|x64
+		{41DF2D43-E7A1-49CA-806F-67D0C2C82BB1}.Release|x64.Build.0 = Release|x64
+		{09C23D9C-D584-46A6-98F6-2AA986D70B10}.Debug|x64.ActiveCfg = Debug|x64
+		{09C23D9C-D584-46A6-98F6-2AA986D70B10}.Debug|x64.Build.0 = Debug|x64
+		{09C23D9C-D584-46A6-98F6-2AA986D70B10}.Release|x64.ActiveCfg = Release|x64
+		{09C23D9C-D584-46A6-98F6-2AA986D70B10}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
